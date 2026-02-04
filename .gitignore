@@ -1,0 +1,43 @@
+.env
+
+# SSL Certificates (managed by certbot, never commit)
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+
+# Let's Encrypt certificates directory
+/etc/letsencrypt/
+
+# Nginx logs
+*.log
+logs/
+
+# Backup files
+*.tar.gz
+backups/
+*.bak
+*.backup
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Local overrides (if any)
+local.conf
+local/
