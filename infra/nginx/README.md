@@ -6,7 +6,7 @@
 
 ```
 conf.d/
-  upstream.conf       # frontend_biletoffhub, api_biletoffhub
+  upstream.conf       # frontend_biletoffhub, frontend_vsebilety, frontend_dev_mark, api_biletoffhub, api_vsebilety
 snippets/
   proxy-common.conf   # общие proxy headers
   proxy-ws.conf       # WebSocket headers
@@ -15,6 +15,7 @@ sites-available/
   api.biletoffhub.conf
   vsebilety.pro.conf
   api.vsebilety.pro.conf
+  dev-mark.ru.conf
 templates/
   https-proxy.conf    # шаблон для новых доменов ({{DOMAIN}}, {{CERT_DOMAIN}}, {{UPSTREAM}})
   domain.conf         # старый шаблон (плейсхолдеры)
